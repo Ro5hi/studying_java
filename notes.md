@@ -1,3 +1,6 @@
+Oracle Docs
+- ("https://docs.oracle.com/en/java/javase/15/index.html")
+
 Every Java application has to have at least one class and at least one main method.
 Every statement MUST end in a semicolon ";".
 
@@ -16,3 +19,6 @@ Operators
 While
 A while loop runs everything within its block as long as the conditional test is true. If the conditional test is false, the whiel loop code block won't run and execution will move down to the code immediately after the loop block.
 
+Books Used
+- Head First Java by Kathy Sierra and Bert Bates
+- Data Structures & Algorithms in Java by Lafore
