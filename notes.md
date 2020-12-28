@@ -9,8 +9,10 @@ System.out.print VS System.out.println
 - .println : Prints in a new line. 
 - .print : Keeps printing on one line.
 
+Operators
 - The assignment operator is "="
 - The equality operator uses "=="
 
+While
 A while loop runs everything within its block as long as the conditional test is true. If the conditional test is false, the whiel loop code block won't run and execution will move down to the code immediately after the loop block.
 
