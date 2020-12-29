@@ -13,3 +13,5 @@ public class IfElse {
 // java IfElse
 // x is NOT 3 * new output
 // This runs no matter what
+
+/* In Java, classes can be ran as public class Ifelse OR class Ifelse */
