@@ -17,7 +17,7 @@ Operators
 - The equality operator uses "=="
 
 While
-A while loop runs everything within its block as long as the conditional test is true. If the conditional test is false, the whiel loop code block won't run and execution will move down to the code immediately after the loop block.
+A while loop runs everything within its block as long as the conditional test is true. If the conditional test is false, the while loop code block won't run and execution will move down to the code immediately after the loop block.
 
 Books Used
 - Head First Java by Kathy Sierra and Bert Bates
