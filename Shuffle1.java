@@ -21,5 +21,7 @@ public class Shuffle1 {
     }
 }
 
-// javac Shuffle1
+// javac Shuffle1 
+
 // java Shuffle1
+// a-b c-d
