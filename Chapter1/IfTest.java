@@ -3,6 +3,8 @@
     "while there's still beer...", you'll say, "if there's still beer...".
 */
 
+package Chapter1;
+
 class IfTest {
     public static void main (String[] args) {
         int x = 3;

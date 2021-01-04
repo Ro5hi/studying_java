@@ -1,3 +1,5 @@
+package Chapter1;
+
 class IfTest2 {
     public static void main(String[] args) {
         int x = 2;

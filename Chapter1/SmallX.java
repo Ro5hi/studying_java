@@ -12,6 +12,8 @@ Needs to compile and print "Small x"
 
 */
 
+package Chapter1;
+
 public class SmallX {
     public static void main (String [] args) {
         int x = 5;

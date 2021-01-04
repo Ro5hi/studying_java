@@ -5,6 +5,7 @@
         pair of curly braces.
 
 */
+package Chapter1;
 
 public class Dog {
     

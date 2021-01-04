@@ -1,6 +1,9 @@
 // Output has to be 
 // a-b c-d
 
+
+package Chapter1;
+
 public class Shuffle1 {
     public static void main(String [] args) {
         int x = 3;
