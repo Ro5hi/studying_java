@@ -1,6 +1,3 @@
-Oracle Docs
-- ("https://docs.oracle.com/en/java/javase/15/index.html")
-
 Every Java application has to have at least one class and at least one main method.
 Every statement MUST end in a semicolon ";".
 
