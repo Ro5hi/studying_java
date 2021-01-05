@@ -4,7 +4,7 @@ class DVDPlayer {
 
     boolean canRecord = false;
 
-    void RecordDVD() {
+    void recordDVD() {
         System.out.println("DVD recording");
     }
 }
