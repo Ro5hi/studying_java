@@ -25,4 +25,4 @@ All objects no matter where, when, or how they're created live on the heap. The 
 What happens when you need to reclaim that space? 
 How do you get an object out of the heap when you're done with it? 
 
-- Java manages that memory for you! When the JVM can 'see' that an object can never be used again, that bject becomes eligible for garbage collection. And if you're running low on memory, the Garbage Collecctor will run, throw out the unreachable objects, and free up the space, so that the space can be reused. 
+- Java manages that memory for you! When the JVM can 'see' that an object can never be used again, that object becomes eligible for garbage collection. And if you're running low on memory, the Garbage Collecctor will run, throw out the unreachable objects, and free up the space, so that the space can be reused. 
