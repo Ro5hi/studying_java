@@ -78,13 +78,13 @@ __________________________________________
 
 3. Give each element in the array an int value. Remember, elements are just int variables in an int array.
 
-      nums[0] = 6;
-      nums[1] = 19;
-      nums[2] = 44;
-      nums[3] = 42;
-      nums[4] = 10;
-      nums[5] = 20;
-      nums[6] = 1;
+    nums[0] = 6;
+    nums[1] = 19;
+    nums[2] = 44;
+    nums[3] = 42;
+    nums[4] = 10;
+    nums[5] = 20;
+    nums[6] = 1;
 
 __________________________________________
 
@@ -112,6 +112,8 @@ __________________________________________
 
     pets[0] = new Dog();
     pets[1] = new Dog();
+    
+__________________________________________
 
 *Java cares about type*
 
@@ -138,3 +140,17 @@ When the Dog is in an array we don't have an actual variable name (like fido). I
         myDogs[0].bark();
 
 *Yes we know we're not demonstrating encapsulation here but we're trying to keep it simple.*
+
+__________________________________________
+
+**Bullet Points**
+
+- Variables come in two flavvours: primitive and reference.
+- Variables must always be clared with a name and a type.
+- A primitive value is the bits representing the value (5, 'a', true, 3.1416, etc..)
+- A reference variable is the bits representing a way to get to an object on the heap.
+- A reference variable is like a remote control. Using the dot operator (.) on a reference variable
+is like pressing a button on the remote control to access a method or instance variable.
+- A reference variable has a value of null whether it is not referencing any object.
+- An array is always an object, even if the array is declared to hold primitives. There is no such
+thing as a primitive array, only an array that holds primitives.
