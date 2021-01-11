@@ -86,11 +86,11 @@ __________________________________________
 
 **Arrays are objects too**
 
-Every element in an array is a variable. Anything you would put in a vvariable of that type can be assigned to an array element of that type. So in an array of type int (int[]), each element can hold an int. In a Dog array, each element can hold a remote control to a Dog. Of course we will have to make the Dog objects. 
+    Every element in an array is a variable. Anything you would put in a vvariable of that type can be assigned to an array element of that type. So in an array of type int (int[]), each element can hold an int. In a Dog array, each element can hold a remote control to a Dog. Of course we will have to make the Dog objects. 
 
 *The array is an object, even though it's an array of primitives*
 
-Arrays are always objects, whether they're declared to hold object references or primitives. But you can have an array object that's declaredd to hold primitive values. In other words, the array object cann have elements which are primitives, but the array itself is never a primitive. Regardless of what the array holds the array itself is always an object. 
+    Arrays are always objects, whether they're declared to hold object references or primitives. But you can have an array object that's declaredd to hold primitive values. In other words, the array object cann have elements which are primitives, but the array itself is never a primitive. Regardless of what the array holds the array itself is always an object. 
 
 __________________________________________
 
@@ -111,17 +111,17 @@ __________________________________________
 
 *Java cares about type*
 
-Control your Dog (with a reference variable)
+    Control your Dog (with a reference variable)
 
-    Dog fido = new Dog();
-    fido.name = "Fido";
+        Dog fido = new Dog();
+        fido.name = "Fido";
 
-We created a Dog object and used the dot operator on the reference variable Fido to access the name variable. *
+    We created a Dog object and used the dot operator on the reference variable Fido to access the name variable. *
 
-We can use the *fido* reference to get the Dog to bark() or eat() or chaseCat().
+        We can use the *fido* reference to get the Dog to bark() or eat() or chaseCat().
 
-    fido.bark();
-    fido.chaseCat();
+        fido.bark();
+        fido.chaseCat();
 
 *What happens if the Dog is in a Dog array?*
 
