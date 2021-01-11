@@ -12,15 +12,30 @@
     ii short  (16 bits) 32768 to 32767
     ,, byte   (8 bits)  -128 to 127
 
-    Floating points
+    Floating points:
 
     ll float (32 bits) varies
     || double (64 bits) varies
 
+    Ex: float f = 32.5f;
+    // Note the 'f'. Gotta have that with a float because Java thinks anything with a floating point is a double, unless you use 'f'.
+
     "I'd like an int please with the value of 2486, and name the variable height", each primitive variable has a fixed number of bits (cup size).
+
+    **The eight primitive types are**
+    
+    boolean, char, byte, short, int, long, float, double
 
 
 
 - Object reference
 
-Variables must have a name and a type. 
+
+**Reserved List of Keywords**
+
+- Java's keywords and other reserved words (in no useful order). If you use these for names the compiler will be very, very upset.
+
+boolean , byte, char, double, float, int , long, short, public, private, protected, abstract, final, native, static, strictfp, synchronized, transient, volatile, if, else, do, while, switch, case, default, for, break, continue, assert, class, extends, implements, import, instanceof, interface, new, ackage, super, this, catch, finally, try, throw, throws, return, void, const, goto, enum
+
+Reserved words are keywords (and other things) the compiler recognizes. 
+
