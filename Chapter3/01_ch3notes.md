@@ -94,3 +94,43 @@ Arrays are always objects, whether they're declared to hold object references or
 
 __________________________________________
 
+*Make an array of Dogs*
+
+1. Declare a Dog array variable
+
+    ``Dog[] pets;``
+
+2. Create a new Dog array with a length of 7, and assign it to the previously declared Dog[] variable pets.
+
+    ``pets = new Dog[7];``
+
+3. Create new Dog objects and assign them to the array elements. Remember, elements in a Dog array are just Dog reference variables. We still need Dogs!
+
+    pets[0] = new Dog();
+    pets[1] = new Dog();
+
+*Java cares about type*
+
+Control your Dog (with a reference variable)
+
+    Dog fido = new Dog();
+    fido.name = "Fido";
+
+We created a Dog object and used the dot operator on the reference variable Fido to access the name variable. *
+
+We can use the *fido* reference to get the Dog to bark() or eat() or chaseCat().
+
+    fido.bark();
+    fido.chaseCat();
+
+*What happens if the Dog is in a Dog array?*
+
+    We know we can access the Dog's instance variables and methods using the dot operator, but on what?
+    When the Dog is in an array we don't have an actual variable name (like fido). Instead we use array notation and push the remote control button (dot operator) on an object at a particular index (position) in the array:
+
+        Dog[] myDogs = new Dog[3];
+        myDogs[0] = new Dog();
+        myDogs[0].name = "Fido";
+        myDogs[0].bark();
+
+    *Yes we know we're not demonstrating encapsulation here but we're trying to keep it simple.*
