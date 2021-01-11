@@ -1,6 +1,7 @@
 **There are two types of variables**
 
 *Primitive*
+
     Primitives are like cups at a coffee house. They come in different sizes and each have a different name.
     You may see those cups displayed in order. In Java, Primitives come in different sizes and those sizes have names.
     When you declare a variable in Java, you must declare it with a specific type. 
@@ -49,6 +50,7 @@ __________________________________________
         - Assigns the new object to the reference variable.
 
 
+__________________________________________
 
 **Reserved List of Keywords**
 
@@ -57,3 +59,38 @@ __________________________________________
 boolean , byte, char, double, float, int , long, short, public, private, protected, abstract, final, native, static, strictfp, synchronized, transient, volatile, if, else, do, while, switch, case, default, for, break, continue, assert, class, extends, implements, import, instanceof, interface, new, ackage, super, this, catch, finally, try, throw, throws, return, void, const, goto, enum
 
 Reserved words are keywords (and other things) the compiler recognizes. 
+
+__________________________________________
+
+*An array is like a tray of cups*
+
+1. Declare an int array variable. An array variable is a remote control to an array object.
+
+    ``int[] nums;``
+
+2. Create a new int array with a length of 7 and assign it to the previously declared int[] variable nums.
+
+    ``nums = new int[7];``
+
+3. Give each element in the array an int value. Remember, elements are just int variables in an int array.
+
+      nums[0] = 6;
+      nums[1] = 19;
+      nums[2] = 44;
+      nums[3] = 42;
+      nums[4] = 10;
+      nums[5] = 20;
+      nums[6] = 1;
+
+__________________________________________
+
+**Arrays are objects too**
+
+Every element in an array is a variable. Anything you would put in a vvariable of that type can be assigned to an array element of that type. So in an array of type int (int[]), each element can hold an int. In a Dog array, each element can hold a remote control to a Dog. Of course we will have to make the Dog objects. 
+
+*The array is an object, even though it's an array of primitives*
+
+Arrays are always objects, whether they're declared to hold object references or primitives. But you can have an array object that's declaredd to hold primitive values. In other words, the array object cann have elements which are primitives, but the array itself is never a primitive. Regardless of what the array holds the array itself is always an object. 
+
+__________________________________________
+
