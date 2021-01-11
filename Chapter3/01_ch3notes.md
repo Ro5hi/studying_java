@@ -36,7 +36,11 @@ __________________________________________
 
 *Object reference*
 
-    An object reference is just another variable value. With reference variables, the value of the variable is bits representing a way to get to a specific object. It doesn't hold the object itself but it holds something like a pointer, or an address. Except in Java we don't really know what is inside a reference evariable. We do know that it represents one and only one object, and the JVM knows how to use the reference to get to the object. 
+    An object reference is just another variable value. With reference variables, the value of the variable is bits representing a way to get to a
+     specific object. It doesn't hold the object itself but it holds something like a pointer, or an address. Except in Java we don't really know what
+      is inside a reference evariable. We do know that it represents one and only one object, and the JVM knows how to use the reference to get to the
+       object.
+
 
     The 3 steps of object declaration, creation, and assignmet:
 
@@ -86,11 +90,11 @@ __________________________________________
 
 **Arrays are objects too**
 
-    Every element in an array is a variable. Anything you would put in a vvariable of that type can be assigned to an array element of that type. So in an array of type int (int[]), each element can hold an int. In a Dog array, each element can hold a remote control to a Dog. Of course we will have to make the Dog objects. 
+Every element in an array is a variable. Anything you would put in a vvariable of that type can be assigned to an array element of that type. So in an array of type int (int[]), each element can hold an int. In a Dog array, each element can hold a remote control to a Dog. Of course we will have to make the Dog objects. 
 
 *The array is an object, even though it's an array of primitives*
 
-    Arrays are always objects, whether they're declared to hold object references or primitives. But you can have an array object that's declaredd to hold primitive values. In other words, the array object cann have elements which are primitives, but the array itself is never a primitive. Regardless of what the array holds the array itself is always an object. 
+Arrays are always objects, whether they're declared to hold object references or primitives. But you can have an array object that's declaredd to hold primitive values. In other words, the array object cann have elements which are primitives, but the array itself is never a primitive. Regardless of what the array holds the array itself is always an object. 
 
 __________________________________________
 
@@ -111,12 +115,12 @@ __________________________________________
 
 *Java cares about type*
 
-    Control your Dog (with a reference variable)
+Control your Dog (with a reference variable)
 
         Dog fido = new Dog();
         fido.name = "Fido";
 
-    We created a Dog object and used the dot operator on the reference variable Fido to access the name variable. *
+We created a Dog object and used the dot operator on the reference variable Fido to access the name variable. *
 
         We can use the *fido* reference to get the Dog to bark() or eat() or chaseCat().
 
@@ -125,12 +129,12 @@ __________________________________________
 
 *What happens if the Dog is in a Dog array?*
 
-    We know we can access the Dog's instance variables and methods using the dot operator, but on what?
-    When the Dog is in an array we don't have an actual variable name (like fido). Instead we use array notation and push the remote control button (dot operator) on an object at a particular index (position) in the array:
+We know we can access the Dog's instance variables and methods using the dot operator, but on what?
+When the Dog is in an array we don't have an actual variable name (like fido). Instead we use array notation and push the remote control button (dot operator) on an object at a particular index (position) in the array:
 
         Dog[] myDogs = new Dog[3];
         myDogs[0] = new Dog();
         myDogs[0].name = "Fido";
         myDogs[0].bark();
 
-    *Yes we know we're not demonstrating encapsulation here but we're trying to keep it simple.*
+*Yes we know we're not demonstrating encapsulation here but we're trying to keep it simple.*
