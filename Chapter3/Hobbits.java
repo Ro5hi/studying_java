@@ -8,6 +8,7 @@ class Hobbits {
         Hobbits [] h = new Hobbits[3];
 
         int z = -1;
+        // needed to start with 0 to compile boolean code
         while (z < 2) {
             z = z + 1;
             h[z] = new Hobbits();
