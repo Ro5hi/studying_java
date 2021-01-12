@@ -1,5 +1,9 @@
 package Chapter3;
 
+import java.awt.print.Book;
+
+import static java.lang.System.out;
+
 class Books {
     String title;
     String author;
@@ -7,8 +11,13 @@ class Books {
 
 class BooksTestDrive {
     public static void main(String [] args) {
-        Books [] myBooks = new Books[3];
-        int x = 0;
+
+        Books[] myBooks = new Books[3];
+        myBooks[0] = new Books();
+        myBooks[1] = new Books();
+        myBooks[2] = new Books();
+
+
         myBooks[0].title = "The Grapes of Java";
         myBooks[1].title = "The Java Gatsby";
         myBooks[2].title = "The Java CookBook";
@@ -16,10 +25,12 @@ class BooksTestDrive {
         myBooks[1].author = "Sue";
         myBooks[2].author = "Ian";
 
-        while (x < 3) {
-            System.out.print(myBooks[x].title);
-            System.out.print("by");
-            System.out.println(myBooks[x].author);
+        int x = 0;
+        System.out.print(myBooks[x].title);
+        System.out.print(" by ");
+        System.out.println(myBooks[x].author);
+
+        while (x < myBooks.length) {
             x = x + 1;
         }
     }
