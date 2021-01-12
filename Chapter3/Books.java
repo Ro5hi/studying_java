@@ -13,6 +13,7 @@ class BooksTestDrive {
     public static void main(String [] args) {
 
         Books[] myBooks = new Books[3];
+        // need to create Books in order to compile code
         myBooks[0] = new Books();
         myBooks[1] = new Books();
         myBooks[2] = new Books();
@@ -25,7 +26,8 @@ class BooksTestDrive {
         myBooks[1].author = "Sue";
         myBooks[2].author = "Ian";
 
-        int x = 0;
+        // can change value to print out certain book from 0-2
+        int x = 1;
         System.out.print(myBooks[x].title);
         System.out.print(" by ");
         System.out.println(myBooks[x].author);
