@@ -2,6 +2,7 @@ package Chapter3;
 
 class TestArrays {
     public static void main(String [] args) {
+
         String [] islands = new String[4];
         islands[0] = "Bermuda";
         islands[1] = "Fiji";
@@ -17,10 +18,12 @@ class TestArrays {
         int y = 0;
         int ref;
         while (y < 4) {
-            y = y + 1;
             ref = index[y];
+            System.out.println("island = ");
+            System.out.print(islands[ref]);
+
+            y = y + 1;
+
         }
-        System.out.println("island = ");
-        System.out.print(islands[ref]);
     }
 }
